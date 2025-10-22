@@ -187,11 +187,10 @@ fluvio-future = { version = "0.8.3", default-features = false }
 fluvio-helm = { version = "0.4.1" }
 flv-tls-proxy = { version = "0.12.0" }
 flv-util = { version = "0.5.2", default-features = false }
-k8-client           = { path = "../my-k8-api/k8-api/src/k8-client" }
-k8-config           = { path = "../my-k8-api/k8-api/src/k8-config" }
-k8-metadata-client  = { path = "../my-k8-api/k8-api/src/k8-metadata-client" }
-k8-types            = { path = "../my-k8-api/k8-api/src/k8-types" }
-k8-diff             = { path = "../my-k8-api/k8-api/src/k8-diff" }
+k8-client = { git = "https://github.com/xpload32004/k8-api.git", branch = "feat/refresh-token-401", package = "k8-client" }
+k8-config = { git = "https://github.com/xpload32004/k8-api.git", branch = "feat/refresh-token-401", package = "k8-config" }
+k8-types  = { git = "https://github.com/xpload32004/k8-api.git", branch = "feat/refresh-token-401", package = "k8-types" }
+k8-diff   = { git = "https://github.com/xpload32004/k8-api.git", branch = "feat/refresh-token-401", package = "k8-diff" }
 trybuild = { branch = "check_option", git = "https://github.com/infinyon/trybuild" }
 
 # Internal fluvio dependencies
