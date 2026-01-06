@@ -4619,6 +4619,7 @@ dependencies = [
 [[package]]
 name = "k8-client"
 version = "15.0.0"
+source = "git+https://github.com/xpload32004/k8-api.git?branch=feat%2Frefresh-token-401#c5c260c623052af0ad38d8daa885429e691e7fa8"
 dependencies = [
  "anyhow",
  "async-channel",
@@ -4648,6 +4649,7 @@ dependencies = [
 [[package]]
 name = "k8-config"
 version = "3.0.0"
+source = "git+https://github.com/xpload32004/k8-api.git?branch=feat%2Frefresh-token-401#c5c260c623052af0ad38d8daa885429e691e7fa8"
 dependencies = [
  "dirs 5.0.1",
  "hostfile",
@@ -4661,6 +4663,7 @@ dependencies = [
 [[package]]
 name = "k8-diff"
 version = "0.1.2"
+source = "git+https://github.com/xpload32004/k8-api.git?branch=feat%2Frefresh-token-401#c5c260c623052af0ad38d8daa885429e691e7fa8"
 dependencies = [
  "serde",
  "serde_json",
@@ -4669,6 +4672,7 @@ dependencies = [
 [[package]]
 name = "k8-metadata-client"
 version = "9.0.0"
+source = "git+https://github.com/xpload32004/k8-api.git?branch=feat%2Frefresh-token-401#c5c260c623052af0ad38d8daa885429e691e7fa8"
 dependencies = [
  "anyhow",
  "async-trait",
@@ -4685,6 +4689,7 @@ dependencies = [
 [[package]]
 name = "k8-types"
 version = "0.10.0"
+source = "git+https://github.com/xpload32004/k8-api.git?branch=feat%2Frefresh-token-401#c5c260c623052af0ad38d8daa885429e691e7fa8"
 dependencies = [
  "serde",
  "serde_json",
